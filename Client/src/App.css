@@ -1,0 +1,19 @@
+/* signUp */
+
+.registration,.login{
+  width: 60%;
+  margin: auto;
+  
+}
+.already-register,.login-heading{
+  text-align: center;
+}
+
+
+/* about page */
+.profile-edit-btn{
+  width: 50%;
+  border-radius: 30%;
+  background-color: rgb(218, 216, 216);
+  outline: none;
+}

@@ -1,0 +1,113 @@
+.postBox {
+    width: 30%;
+    height: 500px;
+    margin: auto;
+    margin-top: 1%;
+    box-sizing: border-box;
+    border-radius: 2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.postBox:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.postHead {
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+}
+
+.NameLocation {
+    width: 30%;
+    font-size: small;
+}
+
+.Name {
+    box-sizing: content-box;
+    font-weight: bolder;
+    margin-bottom: 0%;
+    margin-left: 5%;
+}
+
+.Location {
+    box-sizing: content-box;
+    font-weight: lighter;
+    margin-top: 0%;
+    margin-left: 5%;
+}
+
+.Menu {
+    width: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.Image {
+    width: 100%;
+    height: 60%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.mainImg {
+    width: 100%;
+    height: 100%;
+}
+
+.LikeDate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.likebox {
+    width: 30%;
+    height: 10%;
+}
+
+.like,
+.Send,
+.delete {
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+.Date {
+    width: fit-content;
+    margin-right: 2%;
+    margin-top: 0%;
+}
+
+.Date p {
+    font-weight: 500;
+    width: fit-content;
+    margin: 0%;
+    padding: 0%;
+}
+
+.Like {
+    width: 30%;
+    height: 10%;
+    margin-top: 0%;
+}
+
+.Like p {
+    margin-top: 0%;
+    margin-left: 10%;
+    font-size: small;
+    color: gray;
+    margin-bottom: 0%;
+}
+
+.Discription {
+    margin-left: 2%;
+    margin-top: 0%;
+    font-weight: bolder;
+}
+
+.Discription p {
+    margin-top: 0%;
+}

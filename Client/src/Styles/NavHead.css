@@ -1,0 +1,35 @@
+.Nav {
+    position: sticky;
+    background-color: #ffffff;
+    top: 0;
+    display: flex;
+    width: 100%;
+    border-bottom: grey solid 2px;
+    justify-content: space-between;
+    z-index: 20px;
+}
+
+.logo {
+    display: flex;
+    margin-left: 10%;
+    margin-top: 10px;
+    color: darkgreen;
+    font-size: x-large;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.logo img {
+    width: 5%;
+}
+
+.Cam {
+    width: 40px;
+    margin-right: 10%;
+    cursor: pointer;
+}
+
+.Camicon {
+    display: flex;
+    margin-right: 10%;
+    margin-top: 1%;
+}
